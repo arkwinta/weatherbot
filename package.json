@@ -1,0 +1,32 @@
+{
+  "name": "weatherbot",
+  "version": "1.0.0",
+  "description": "slackbot for weather",
+  "main": "index.js",
+  "scripts": {
+    "test": "run weather"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkwinta/weatherbot.git"
+  },
+  "keywords": [
+    "weather",
+    "bot",
+    "weatherbot"
+  ],
+  "author": "austin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arkwinta/weatherbot/issues"
+  },
+  "homepage": "https://github.com/arkwinta/weatherbot#readme",
+  "dependencies": {
+    "@slack/client": "^3.9.0",
+    "aws-sdk": "^2.32.0",
+    "http": "0.0.0",
+    "request": "^2.81.0",
+    "slackbots": "^1.0.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
