@@ -3,12 +3,9 @@ const WebClient = require('@slack/client').WebClient;
 const https = require('https');
 const Templates = require('./templates.js');
 
-const client = {
-  id: "35436369973.159044565042",
-  secret: "ebb5655496641d8aa8f5632f2bbfde89",
-}
 
-const token = "iJ0RpQxbkpzwFULWwXUTb2zz";
+
+
 module.exports.event = (event, context, callback) => {
 	var jsonBody = JSON.parse(event.body);
 
@@ -79,11 +76,7 @@ module.exports.hello = (event, context, callback) => {
   }
 
   callback(null, response);
-  //api key for aws :AKIAI4LKTO26UFUVFKAQ
-  //secret: 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
 
-  //api key for weatherbot on slack : 35436369973.159044565042
-  //secret : ebb5655496641d8aa8f5632f2bbfde89
   // Use this code if you don't use the http event with the LAMBDA-PROXY integration
   // callback(null, { message: 'Go Serverless v1.0! Your function executed successfully!', event });
 };
